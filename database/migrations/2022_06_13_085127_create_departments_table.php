@@ -19,9 +19,9 @@ class CreateDepartmentsTable extends Migration
             $table->timestamps();
         });
         DB::table('departments')->insert([
-            ['department_name' => 'HR Department'],
-            ['department_name' => 'Bookkeeping Department'],
-            ['department_name' => 'Service Department'],
+            ['department_name' => 'Отдел кадров'],
+            ['department_name' => 'Отдел бухгалтерии'],
+            ['department_name' => 'Технический отдел'],
         ]);
     }
 
